@@ -3,7 +3,7 @@
 </script>
 
 <template lang="">
-    {{banner}}
+
     <section class="bg-white dark:bg-gray-900 mt-8" style="background: linear-gradient(45deg, #FFFFF2 0%, #004ba2 100%)">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
