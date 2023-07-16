@@ -2,7 +2,10 @@ const banner = {
     title: 'Unleash Your Fitness Potential with the Ultimate Workout Companion',
     subtitle:
       'Empower Your Workouts, Elevate Your Results!',
-    textBtn: 'Get Started',
+    textBtn1: 'Play Store',
+    imgBtn1: '/playstore.png',
+    textBtn2: 'App Store',
+    imgBtn2: '/appstore.png',
     img: '/hero_gym.jpeg',
 };
 

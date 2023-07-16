@@ -13,8 +13,11 @@
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                     {{banner.subtitle}}
                 </p>
-                <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center bg-blue-600 text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                    {{banner.textBtn}}
+                <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center bg-blue-100 text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                   <img class="h-8 mr-2" :src="banner.imgBtn1" alt=""> {{banner.textBtn1}}
+                </a> 
+                <a href="#" class="bg-gray-200 ml-6 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                   <img class="h-8 mr-2" :src="banner.imgBtn2" alt=""> {{banner.textBtn2}}
                 </a> 
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
