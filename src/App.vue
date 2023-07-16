@@ -5,8 +5,8 @@ import HeroBlock from "./components/HeroBlock.vue"
 import FeatureBlock from "./components/FeaturesBlock.vue"
 import PricingBlock from "./components/PricingBlock.vue"
 import FooterBlock from "./components/FooterBlock.vue"
-import Testomonial from "./components/Testomonial.vue"
-import Contact from "./components/Contact.vue"
+import TestomonialBlock from "./components/TestomonialBlock.vue"
+import ContactBlock from "./components/ContactBlock.vue"
 
 </script>
 
@@ -20,9 +20,9 @@ import Contact from "./components/Contact.vue"
 
     <PricingBlock />
     
-    <Testomonial />
+    <TestomonialBlock />
 
-    <Contact />
+    <ContactBlock />
 
     <FooterBlock />
 
